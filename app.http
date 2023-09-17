@@ -1,0 +1,34 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "Shubham",
+  "name": "Shubham Hembram",
+  "password": "Shubham@1",
+  "gender": "male",
+  "location": "Jharkhand"
+}
+
+###
+POST http://localhost:3000/logins
+Content-Type:application/json 
+
+
+{
+  "username": "Shubham",
+  "password": "Shubham@1"
+}
+
+###
+
+PUT http://localhost:3000/change-password
+Content-Type:application/json
+Authorization: 
+
+{
+  "username": "adam_richard",
+  "oldPassword": "richard_567",
+  "newPassword": "richard@123"
+}
+
+
